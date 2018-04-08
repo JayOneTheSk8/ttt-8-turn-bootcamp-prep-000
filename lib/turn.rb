@@ -25,5 +25,7 @@ end
 def turn(board)
   print "Please enter 1-9:"
   x = input_to_index(gets)
-  valid_move?(board, x)
+  until true
+    valid_move?(board, x)
+  end
 end
