@@ -29,4 +29,5 @@ def turn(board)
       break
     end
   end
+  move(board, x)
 end
