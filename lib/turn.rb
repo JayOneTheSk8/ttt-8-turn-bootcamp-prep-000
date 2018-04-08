@@ -23,7 +23,7 @@ def move(board, index, token = "X")
 end
 
 def turn(board)
-  print "Please enter 1-9:"
+  puts "Please enter 1-9:"
   while x = input_to_index(gets)
     if valid_move?(board, x) == true
       break
