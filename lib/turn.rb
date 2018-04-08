@@ -29,5 +29,6 @@ def turn(board)
       break
     end
   end
-  move(board, x)
+  i = move(board, x)
+  puts i
 end
